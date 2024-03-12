@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "@rocketseat/eslint-config/react",
+    "plugin:vitest-globals/recommended"
+  ],
+  "env": {
+    "vitest-globals/env": true
+  },
+  "plugins": ["simple-import-sort"],
+  "rules": {
+    "prettier/prettier": "error",
+    "simple-import-sort/imports": "error"
+  }
+}
